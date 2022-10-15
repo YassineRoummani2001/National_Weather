@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> National Weather</title>
+
+        <!-- start css -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+
+    <!-- end css -->
+
+    <link rel="icon" href="partly-sunny-weather-symbo-logo-FE1CF4CAE5-seeklogo.com.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+         <div id="container">
+        <div class="logo">
+            <img src="partly-sunny-weather-symbo-logo-FE1CF4CAE5-seeklogo.com.png" alt="">
+            <h3><span>National</span> Weather </h3>
+        </div>
+    </header>
+
+    <!-- start container -->
+
+    <div>
+
+        <div class="container-form">
+            
+        <!-- start video -->
+
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="vd_w.mp4" type="video/mp4" >
+        </video>
+
+         <!-- ent video -->
+
+          <!-- start form -->
+
+                <form action="">
+                    <div class="formt">
+                    <input type="text " class="form-control" id="inputcity" placeholder="Entrez votre ville">
+                    <button type="submit" id="form-Rechercher" class="btn btn-info btn-block">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    </div>
+                   
+                </form>
+        </div>
+
+
+         <!-- end form -->
+
+        <div class="box-container">
+            <div id="city" class="box"></div>
+            <div id="temp" class="box"></div>
+            <div id="humidity" class="box"></div>
+            <div id="wind" class="box"></div>
+        </div>
+    </div>
+    </div>
+
+    
+    <!-- end container -->
+
+
+    <!-- start js -->
+
+    <script src="main.js"></script>
+
+    <!-- end js -->
+
+</body>
+<!-- <footer>
+    <div id="container">
+        <div class="footer">
+            <p><span>By</span> Yassine Rroummani</p>
+        </div>
+</footer> -->
+</html>
